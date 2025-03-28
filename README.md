@@ -65,10 +65,22 @@ LSTM also performed well and followed the general sales trend, but with slightly
 | XGBoost   | ~1.56M      | 2.70%    |
 | LSTM      | ~1.82M      | 3.04%    |
 
-> **Conclusion:** XGBoost outperformed LSTM in this forecasting task, delivering lower error rates while being faster to train on structured features.
+> XGBoost outperformed LSTM in this forecasting task, delivering lower error rates while being faster to train on structured features.
 
 
 ---
 
 
 **Tools used:** Python, Pandas, XGBoost, TensorFlow/Keras, Matplotlib, Scikit-learn
+
+---
+
+## 🧠 Conclusion & Business Insight
+
+This project gave us a hands-on look at how machine learning models like **XGBoost** and **LSTM** can be used to forecast retail sales. Both models were able to follow the general sales trends, but **XGBoost came out on top** with a lower error and more accurate predictions overall.
+
+With a **MAPE of just 2.70%**, XGBoost proved to be a great choice for structured, short-term sales forecasting. It handled lag features and calendar-based patterns really well. LSTM, while slightly less accurate, still showed potential—especially for modeling sequences over time. With more tuning or richer features (like holidays or promotions), it could improve even more.
+
+> 💡 **Bottom line:** If you're working with structured sales data and need quick, reliable forecasts, XGBoost is a solid and efficient choice. But if your data is more complex or deeply time-dependent, LSTM could offer value with the right setup.
+
+This project helped clarify not just the technical differences between the models, but when and why you'd choose one over the other in real-world forecasting scenarios.
