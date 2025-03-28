@@ -10,6 +10,7 @@ We used a simplified time series dataset based on weekly aggregated sales from W
 
 ![1](https://github.com/user-attachments/assets/c957223e-a7b5-4e36-a851-18727cbfb328)
 
+**Source:** [Walmart Recruiting - Store Sales Forecasting (Kaggle)](https://www.kaggle.com/competitions/walmart-recruiting-store-sales-forecasting)
 
 **Features engineered:**
 - `lag_1`, `lag_2`: previous weeks' sales
